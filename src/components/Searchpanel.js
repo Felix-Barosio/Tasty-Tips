@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Searchpanel() {
+const Searchpanel = ({ onClickSearch }) => {
+    function handleClick() { onClickSearch() }
     return (
         <div>
             <div className="row">
@@ -10,7 +11,7 @@ function Searchpanel() {
                     </h2>
                     <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
                     <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <p>All you have to do is click the button below </p>
+                    <p className='para'>All you have to do is click the button below </p>
                 </div>
             </div>
             <div className="row">
@@ -18,6 +19,7 @@ function Searchpanel() {
                     <button
                         className="btn btn-success"
                         id="search-btn"
+                        onClick={handleClick}
                     >
                         Search Recipe!
                     </button>
