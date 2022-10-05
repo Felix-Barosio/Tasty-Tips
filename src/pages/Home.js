@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
 
 
 import Searchpanel from '../components/Searchpanel';
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <Searchpanel />
