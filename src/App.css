@@ -72,6 +72,23 @@
 
 /* end */
 
+
+/* searchpanel */
+.search{
+  color: #ceb736;;
+  font-size: 3.1vw;
+  font-weight: 200;
+  font-family: 'Oleo Script', cursive;
+}
+
+.para{
+  font-size: 1.2vw;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+/* end */
+
 /* about us */
 .about {
   width: 100%;
