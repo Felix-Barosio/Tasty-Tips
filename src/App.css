@@ -75,7 +75,7 @@
 
 /* searchpanel */
 .search{
-  color: #ceb736;;
+  color: #ceb736;
   font-size: 3.1vw;
   font-weight: 200;
   font-family: 'Oleo Script', cursive;
@@ -85,6 +85,10 @@
   font-size: 1.2vw;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
+}
+#search-btn{
+  background: #ceb736;
+  font-size: 1.4vw;
 }
 
 /* end */
