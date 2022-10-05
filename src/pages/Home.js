@@ -16,7 +16,7 @@ const Home = () => {
     };
     return (
         <div>
-            <Searchpanel />
+            <Searchpanel onClickSearch={handleClick} />
         </div>
     )
 }
