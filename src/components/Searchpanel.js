@@ -13,6 +13,16 @@ function Searchpanel() {
                     <p>All you have to do is click the button below </p>
                 </div>
             </div>
+            <div className="row">
+                <div className="text-center pb-3">
+                    <button
+                        className="btn btn-success"
+                        id="search-btn"
+                    >
+                        Search Recipe!
+                    </button>
+                </div>
+            </div>
         </div>
     )
 }
