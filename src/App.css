@@ -92,6 +92,27 @@
   padding-bottom: 2.1vw;
   font-family: 'Oleo Script', cursive;
 }
+.about .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 20vw;
+  height: 0.1vw;
+  background: #111;
+  transform: translateX(-50%);
+}
+.about .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 2.1vw;
+  color: #ceb736;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+  content: "What We Offer You";
+}
 
 .about .about-content .left{
   width: 45%;
@@ -106,7 +127,7 @@
   width: 55%;
 }
 .about .about-content .right .text{
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
