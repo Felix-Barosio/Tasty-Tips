@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="navbar">
                     <div className="navbar-heading">
                         <h1 activeclassname="active">
-                            <span>Tasty Tips.</span>
+                            <span>Tasty-Tips.</span>
                         </h1>
                     </div>
                     <div className="navbar-links">
