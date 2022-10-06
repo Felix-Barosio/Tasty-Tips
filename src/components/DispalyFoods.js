@@ -3,6 +3,24 @@ import React from "react";
 const DisplayFoods = ({ data }) => {
     const { strMealThumb, strInstructions, strMeal, strCategory, strArea, strTags, } = data;
 
+    const ingredients = [];
+
+    Object.keys(data).forEach((obj, idx) => {
+        if (data[`strIngredient${idx}`]) {
+            ingredients.push({
+                ingredient: data[`strIngredient${idx}`],
+                measure: data[`strMeasure${idx}`],
+            });
+        }
+    });
+
+    const renderFood = (obj, idx) => (
+        <div key={idx} className="d-flex">
+            <li className="listItem">{obj.ingredient}~</li>
+            <span className="ms-2 fst-normal">{obj.measure}.</span>
+        </div>
+    );
+
     return (
         <div>
             <div className="row">
