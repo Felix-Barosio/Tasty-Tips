@@ -3,8 +3,6 @@ import React from "react";
 const DisplayFoods = ({ data }) => {
     const { strMealThumb, strInstructions, strMeal, strCategory, strArea, strTags, } = data;
 
-
-
     return (
         <div>
             <div className="row">
@@ -26,6 +24,13 @@ const DisplayFoods = ({ data }) => {
                         </div>
                     </div>
 
+                </div>
+
+                <div className="col-12 col-lg-3">
+                    <div className="row">
+                        <h3 id="foodie">Ingredients.</h3>
+                        <p id="instructions">{ingredients.map((obj, idx) => renderFood(obj, idx))}</p>
+                    </div>
                 </div>
             </div>
         </div>
