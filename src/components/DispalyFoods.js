@@ -58,6 +58,15 @@ const DisplayFoods = ({ data }) => {
                     </div>
                 </div>
             </div>
+
+            <div className="row py-2 mt-5">
+                <div className="col-4 col-lg-4">
+                    <h6 id="foody">Country Of Origin:</h6>
+                    <div id="area" className="badge rounded-pill bg-warning text-dark">
+                        {strArea}
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
