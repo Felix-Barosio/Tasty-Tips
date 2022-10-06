@@ -91,6 +91,10 @@
   font-size: 1.4vw;
 }
 
+#searchpanel{
+  margin-bottom: 1.2vw;
+}
+
 /* end */
 
 /* about us */
@@ -226,6 +230,11 @@ form {
   font-family: 'Oleo Script', cursive;
   position: relative;
   font-weight: 100;
+}
+#video{
+  margin-top: 1.2vw;
+  margin-left: 0.3vw;
+  margin-right: 0.1vw;
 }
 /* #youtube::before{
   content: '';
