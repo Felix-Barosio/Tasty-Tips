@@ -2,6 +2,20 @@ import React, { useState } from 'react'
 
 const FeedBack = ({ data }) => {
 
+    const [feedbackData, setFeedbackData] = useState([]);
+    const [feedback, setFeedback] = useState("");
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        const formData = { feeeback: feedback };
+        const dataArray = [...feedbackData, formData];
+        setFeedbackData(dataArray);
+        setFeedback("");
+    }
+
+    const listOfFeedback = feedbackData.map((data, idx) => {
+        return <div key={idx}>{data.feeeback}</div>;
+    });
     return (
         <div className='card' id='list'>
             <div className='text-center' style={{ width: "68vw" }} id='feedback'>
