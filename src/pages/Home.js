@@ -4,6 +4,7 @@ import axios from 'axios';
 
 import Searchpanel from '../components/Searchpanel';
 import DisplayFoods from '../components/DispalyFoods';
+import YoutubeVideo from '../components/YoutubeVideo';
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -19,6 +20,7 @@ const Home = () => {
         <div>
             <Searchpanel onClickSearch={handleClick} />
             <DisplayFoods data={data} />
+            <YoutubeVideo data={data} />
         </div>
     )
 }
