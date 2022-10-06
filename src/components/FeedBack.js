@@ -10,6 +10,21 @@ const FeedBack = ({ data }) => {
                         <h3 id='youtube'>
                             Give Your Feedback:
                         </h3>
+                        <div className="col-12">
+                            <form action="" onSubmit={handleSubmit}>
+                                <input
+                                    type="text"
+                                    id="input"
+                                    name="feedback"
+                                    value={feedback}
+                                    placeholder="Jot Something Down..."
+                                    autoComplete="off"
+                                    onChange={handleChange}
+                                />
+                                <br />
+                                <input type="submit" id="submit" value="Post" />
+                            </form>
+                        </div>
 
                         <div className="feedback pt-5">
                             <div id='submision'>
