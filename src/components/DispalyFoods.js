@@ -73,6 +73,13 @@ const DisplayFoods = ({ data }) => {
                         {strCategory}
                     </div>
                 </div>
+
+                <div className="col-4 col-lg-4">
+                    <h6 id="foody">Search Tags:</h6>
+                    <div id="tags" className="badge rounded-pill bg-warning text-dark">
+                        {strTags?.split(",").join(", ")}
+                    </div>
+                </div>
             </div>
         </div>
     );
