@@ -17,7 +17,7 @@ const Searchpanel = ({ onClickSearch }) => {
             <div className="row">
                 <div className="text-center pb-3">
                     <button
-                        className="btn btn-success"
+                        className="btn"
                         id="search-btn"
                         onClick={handleClick}
                     >
