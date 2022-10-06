@@ -1,11 +1,16 @@
 import React from "react";
 
-function YoutubeVideo() {
+const YoutubeVideo = () => {
 
 
     return (
         <div>
-            YoutubeVideo
+            <div className="row">
+                <div className="col-12 videoRecipe text-center py-3">
+                    <h1 id="youtube">Recipe Video</h1>
+                </div>
+
+            </div>
         </div>
     );
 };
