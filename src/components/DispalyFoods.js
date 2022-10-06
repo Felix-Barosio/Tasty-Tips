@@ -66,6 +66,13 @@ const DisplayFoods = ({ data }) => {
                         {strArea}
                     </div>
                 </div>
+
+                <div className="col-4 col-lg-4">
+                    <h6 id="foody">Food Category:</h6>
+                    <div className="badge rounded-pill bg-warning text-dark" id="area">
+                        {strCategory}
+                    </div>
+                </div>
             </div>
         </div>
     );
