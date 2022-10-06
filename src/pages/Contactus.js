@@ -1,8 +1,12 @@
 import React from 'react'
 
-function Contactus() {
+import Contact from '../components/Contact';
+
+const Contactus = () => {
     return (
-        <div>Contactus</div>
+        <div>
+            <Contact />
+        </div>
     )
 }
 
