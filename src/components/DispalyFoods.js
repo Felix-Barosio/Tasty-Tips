@@ -50,6 +50,13 @@ const DisplayFoods = ({ data }) => {
                         <p id="instructions">{ingredients.map((obj, idx) => renderFood(obj, idx))}</p>
                     </div>
                 </div>
+
+                <div className="col-12 col-lg-6">
+                    <div className="row">
+                        <h3 id="foodie">How to Prepare.</h3>
+                        <p id="instructions">{strInstructions}</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
