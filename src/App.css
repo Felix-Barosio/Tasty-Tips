@@ -159,6 +159,49 @@
 }
 /* end */
 
+/* feedback section */
+#input {
+  margin-top: 1.2vw;
+  padding: 0.5vw 0 0.8vw 1vw;
+  width: 30vw;
+  height: 5vw;
+  border-radius: 1.1vw;
+}
+
+#input:focus {
+  outline: none;
+}
+
+form {
+  position: relative;
+}
+
+#submit {
+  position: absolute;
+  top: 1.8vw;
+  margin-left: 15.2vw;
+  border: none;
+  padding: 1vw;
+  margin-bottom: 3.1vw;
+  background: #ceb736;
+  border-radius: 0.7vw;
+}
+
+#feedback{
+  margin-left: 8.0vw;
+  font-size: 1.2vw;
+}
+#submision{
+  margin-bottom: 4.1vw;
+  font-size: 1.3vw;
+  font-weight: 100;
+}
+#list{
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+}
+
+/* end */
 #foodie{
   font-size: 1.9vw;
   font-family: 'Oleo Script', cursive;
@@ -174,7 +217,7 @@
   left: 2.9vw;
   bottom: -0.2vw;
   background-color: #ceb736;
-  height: 0.2vw;
+  height: 0.1vw;
   box-sizing: border-box;
   width: 4.8vw;
 }
@@ -232,7 +275,7 @@
     text-align: center;
   }
   #iframe iframe {
-    width: 100%;
+    width: 65vw;
     height: 250px;
   }
 }
