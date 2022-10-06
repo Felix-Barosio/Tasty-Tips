@@ -3,10 +3,11 @@ import axios from 'axios';
 
 
 import Searchpanel from '../components/Searchpanel';
+import DisplayFoods from '../components/DispalyFoods';
 
 const Home = () => {
     const [data, setData] = useState([]);
-    const [count, setCount] = useState(0);
+    const [setCount] = useState(0);
 
     const handleClick = async () => {
         const res = await axios.get("https://www.themealdb.com/api/json/v1/1/random.php");
@@ -17,6 +18,7 @@ const Home = () => {
     return (
         <div>
             <Searchpanel onClickSearch={handleClick} />
+            <DisplayFoods data={data} />
         </div>
     )
 }
