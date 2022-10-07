@@ -23,7 +23,7 @@ const FeedBack = ({ data }) => {
     }
 
     return (
-        <div className='card' id='list'>
+        <div id='list'>
             <div className='text-center' style={{ width: "68vw" }} id='feedback'>
                 {data.strYoutube ? (
                     <div className="row text-center pt-5 mb-4">
@@ -42,7 +42,7 @@ const FeedBack = ({ data }) => {
                                     onChange={handleChange}
                                 />
                                 <br />
-                                <input type="submit" id="submit" value="Post" />
+                                <input type="submit" className='text-white' id="submit" value="Post" />
                             </form>
                         </div>
 
@@ -53,6 +53,7 @@ const FeedBack = ({ data }) => {
                                 </div>
                                 {listOfFeedback}
                             </div>
+                            <hr />
                         </div>
                     </div>
                 ) : null}
