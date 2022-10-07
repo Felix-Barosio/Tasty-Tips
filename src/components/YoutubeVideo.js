@@ -4,7 +4,7 @@ const YoutubeVideo = ({ data }) => {
     const { strYoutube, strMeal } = data;
 
     return (
-        <div className="card" id="list">
+        <div id="list">
             <div className="row" id="video" >
                 <div className="col-12 text-center py-3">
                     <h1 id="youtube">Recipe Video</h1>
@@ -13,7 +13,7 @@ const YoutubeVideo = ({ data }) => {
                     <div className="col-12" id="iframe">
                         {strYoutube ? (
                             <iframe
-                                width="880vw"
+                                width="80%"
                                 height="400"
                                 src={strYoutube.replace("watch?v=", "embed/")}
                                 title={`How to cook ${strMeal}`}
