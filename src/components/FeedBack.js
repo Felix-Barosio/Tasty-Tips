@@ -23,7 +23,7 @@ const FeedBack = ({ data }) => {
     }
 
     return (
-        <div id='list'>
+        <div id='list mysearch'>
             <div className='text-center' style={{ width: "68vw" }} id='feedback'>
                 {data.strYoutube ? (
                     <div className="row text-center pt-5 mb-4">

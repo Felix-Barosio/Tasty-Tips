@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
+        <div id="mysearch">
             <div className="row header">
                 <div className="navbar">
                     <div className="navbar-heading col-12 col-md-3">

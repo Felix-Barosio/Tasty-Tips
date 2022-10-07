@@ -4,7 +4,7 @@ const YoutubeVideo = ({ data }) => {
     const { strYoutube, strMeal } = data;
 
     return (
-        <div id="list">
+        <div id="list mysearch">
             <div className="row" id="video" >
                 <div className="col-12 text-center py-3">
                     <h1 id="youtube">Recipe Video</h1>

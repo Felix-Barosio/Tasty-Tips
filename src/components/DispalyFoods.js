@@ -23,11 +23,11 @@ const DisplayFoods = ({ data }) => {
 
     return (
         <div>
-            <div className="row">
+            <div className="row" id="mysearch">
                 <div className="col-12 text-center py-3">
                     <h1 id="youtube">Recipe Meals</h1>
                 </div>
-                <div className="col-12 col-lg-3">
+                <div className="col-12 col-lg-3" id="pic-food">
                     <h3 id="foodie">Food Picture.</h3>
                     <div className="card" style={{ width: "20vw" }} id="foody">
                         <img
@@ -43,14 +43,14 @@ const DisplayFoods = ({ data }) => {
 
                 </div>
 
-                <div className="col-12 col-lg-3">
+                <div className="col-12 col-lg-3" id="ingri">
                     <div className="row">
                         <h3 id="foodie">Ingredients.</h3>
                         <p id="instructions">{ingredients.map((obj, idx) => renderFood(obj, idx))}</p>
                     </div>
                 </div>
 
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-6" id="prepea">
                     <div className="row">
                         <h3 id="foodie">How to Prepare.</h3>
                         <p id="instructions">{strInstructions}</p>
@@ -58,7 +58,7 @@ const DisplayFoods = ({ data }) => {
                 </div>
             </div>
 
-            <div className="row py-2 mt-5">
+            <div className="row py-2 mt-5" id="mysearch">
                 <div className="col-4 col-lg-4">
                     <h6 id="foody">Country Of Origin:</h6>
                     <div id="area" className="badge rounded-pill bg-info text-dark">

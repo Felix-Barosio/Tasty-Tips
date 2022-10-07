@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className="about">
+        <div className="about" id="mysearch">
             <h2 class="title">About Us</h2>
             <hr />
             <div class="about-content">
