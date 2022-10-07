@@ -221,6 +221,18 @@ form {
   box-sizing: border-box;
   width: 4.8vw;
 }
+#mysearch{
+  width: 100%;
+}
+#pic-food{
+  width: 28%;
+}
+#ingri{
+  width: 28%;
+}
+#prepea{
+  width: 44%;
+}
 #youtube{
   font-size: 2.2vw;
   font-family: 'Oleo Script', cursive;
@@ -361,7 +373,7 @@ form {
     height: 1vw;
   }
   #ingri{
-width: 33%;
+    width: 33%;
   }
   #prepea{
     width: 34%;
