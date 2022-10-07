@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="header">
-            <div className="row">
+        <div>
+            <div className="row header">
                 <div className="navbar">
-                    <div className="navbar-heading">
+                    <div className="navbar-heading col-12 col-md-3">
                         <h1 activeclassname="active">
                             <span>Tasty-Tips</span>
                         </h1>
                     </div>
-                    <div className="navbar-links">
+                    <div className="navbar-links col-12 col-md-6">
                         <ul>
                             <Link to="/"> {" "}
                                 <li id="home">Home</li>
