@@ -22,7 +22,7 @@ const DisplayFoods = ({ data }) => {
     );
 
     return (
-        <div className="card">
+        <div>
             <div className="row">
                 <div className="col-12 text-center py-3">
                     <h1 id="youtube">Recipe Meals</h1>
@@ -61,21 +61,21 @@ const DisplayFoods = ({ data }) => {
             <div className="row py-2 mt-5">
                 <div className="col-4 col-lg-4">
                     <h6 id="foody">Country Of Origin:</h6>
-                    <div id="area" className="badge rounded-pill bg-warning text-dark">
+                    <div id="area" className="badge rounded-pill bg-info text-dark">
                         {strArea}
                     </div>
                 </div>
 
                 <div className="col-4 col-lg-4">
                     <h6 id="foody">Food Category:</h6>
-                    <div className="badge rounded-pill bg-warning text-dark" id="area">
+                    <div className="badge rounded-pill bg-info text-dark" id="area">
                         {strCategory}
                     </div>
                 </div>
 
                 <div className="col-4 col-lg-4">
                     <h6 id="foody">Search Tags:</h6>
-                    <div id="tags" className="badge rounded-pill bg-warning text-dark">
+                    <div id="tags" className="badge rounded-pill bg-info text-dark">
                         {strTags?.split(",").join(", ")}
                     </div>
                 </div>
