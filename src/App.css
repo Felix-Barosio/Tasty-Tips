@@ -27,7 +27,7 @@
 
 .navbar {
   width: 100%;
-  height: 10vw;
+  height: 9vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,6 +46,7 @@
   margin-left: 3vw;
   font-weight: 300;
   color: #268da3;
+  margin-bottom: 1.2vw;
 }
 
 
