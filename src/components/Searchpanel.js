@@ -3,7 +3,7 @@ import React from 'react'
 const Searchpanel = ({ onClickSearch }) => {
     function handleClick() { onClickSearch() }
     return (
-        <div className='card' id='list'>
+        <div id='list'>
             <div className="row">
                 <div className="text-center pt-5 pb-3">
                     <h2 className='search'>
@@ -21,7 +21,7 @@ const Searchpanel = ({ onClickSearch }) => {
             <div className="row">
                 <div className="text-center pb-3">
                     <button
-                        className="btn"
+                        className="btn btn-info text-white"
                         id="search-btn"
                         onClick={handleClick}
                     >
