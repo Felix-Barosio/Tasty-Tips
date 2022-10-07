@@ -4,6 +4,7 @@ function About() {
     return (
         <div className="about">
             <h2 class="title">About Us</h2>
+            <hr />
             <div class="about-content">
                 <div class="column left">
                     <img src="https://media.gettyimages.com/vectors/overhead-angle-of-a-person-using-apps-online-for-cooking-vector-id641803276?s=2048x2048" alt='' />
