@@ -351,8 +351,21 @@ form {
     justify-items: center;
     margin-top: -3vw;
     padding: -10vw;
+    width: 100%;
   }
-  
+  #mysearch{
+    width: 100%;
+  }
+  #pic-food{
+    width: 33%;
+    height: 1vw;
+  }
+  #ingri{
+width: 33%;
+  }
+  #prepea{
+    width: 34%;
+  }
   .about{
     margin-top: 15vw;
   }
@@ -363,7 +376,7 @@ form {
     margin-top: 5vw;
   }
   #iframe iframe {
-    width: 60vw;
+    width: 90vw;
     height: 40vw;
   }
 }
